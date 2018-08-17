@@ -1,5 +1,5 @@
 # Constraint Layout Part Series
-A project showing the files for the five parts of the series.
+A project showing the files for the five parts of the series. [View tutorial](#).
 
 ## Getting Started
 
