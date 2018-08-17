@@ -1,0 +1,25 @@
+<MotionScene xmlns:motion="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <Transition
+    motion:constraintSetStart="@layout/motion_one_img_start"
+    motion:constraintSetEnd="@layout/motion_one_img_end"
+    motion:duration="1000">
+    <OnClick
+      motion:target="@+id/imageView"
+      motion:mode="toggle" />
+
+
+    <KeyFrameSet>
+      <KeyPosition
+        motion:type="parentRelative"
+        motion:percentX="0.25"
+        motion:framePosition="50"
+        motion:target="@+id/imageView"/>
+      <KeyAttribute
+        android:rotation="-45"
+        motion:framePosition="50"
+        motion:target="@id/imageView" />
+    </KeyFrameSet>
+
+  </Transition>
+</MotionScene>
